@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Druk Wide Bold';
+    font-weight: normal;
+    src: url('./Fonts/Druk-Wide-Bold.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    cursor: default;
+}
+
+html {
+    font-family: Montserrat, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F2326;
+}
